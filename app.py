@@ -1,5 +1,4 @@
-# 0G Hackathon 2026 Submission - Integrated with 0G Modular Infrastructure
-# streamlit run app.py
+# Streamlit run app.py
 # python -m venv venv
 # venv\Scripts\activate
 
@@ -601,24 +600,6 @@ def render_evaluation_panel():
         # Actionable feedback - condensed
         st.markdown("---")
         st.markdown(evaluation["actionable_feedback"])
-        
-        # --- U2U NFT Badge Claim Section ---
-        import utils.web3_client as web3_client
-
-        st.markdown("### 🎖 Claim Your U2U NFT Badge")
-
-        user_wallet = st.text_input("Enter your U2U/Metamask Wallet Address:")
-
-        if st.button("Mint Achievement Badge"):
-            try:
-                tx_hash = web3_client.mint_badge(
-                    user_wallet=user_wallet,
-                    private_key=st.secrets["DEPLOYER_KEY"]  # Add this in Streamlit secrets
-                )
-                st.success(f"✅ NFT Minted Successfully! TX Hash: {tx_hash}")
-            except Exception as e:
-                st.error(f"❌ Minting Failed: {str(e)}")
-
         
         # Action buttons - vertical layout for RHS
         st.markdown("---")

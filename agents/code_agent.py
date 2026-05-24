@@ -1,5 +1,5 @@
-
-# 0G Hackathon 2026 Submission - Integrated with 0G Modular Infrastructure
+# AI DSA Coach - Multi-Agent System
+# AI DSA Coach - Multi-Agent System
 from utils.gemini_client import get_gemini_model
 import re
 import json

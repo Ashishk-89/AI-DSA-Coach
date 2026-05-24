@@ -1,4 +1,4 @@
-# 0G Hackathon 2026 - AI DSA Coach Backend API
+# AI DSA Coach Backend API
 # FastAPI wrapper around the existing multi-agent system
 
 import sys

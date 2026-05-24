@@ -1,4 +1,4 @@
-# 0G Hackathon 2026 Submission - Integrated with 0G Modular Infrastructure
+# AI DSA Coach - Multi-Agent System
 from enum import Enum
 from typing import Dict, Any, Optional
 import time
