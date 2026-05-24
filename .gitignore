@@ -1,0 +1,16 @@
+config.py
+/venv/
+/.git
+/.devcontainer
+/.vscode
+/myenv
+/_pycache
+/__pycache__/
+/.streamlit/
+/node_modules
+/contracts/.env
+/contracts/artifacts
+/contracts/cache
+/contracts/node_modules
+
+# 0G Hackathon 2026 Submission
