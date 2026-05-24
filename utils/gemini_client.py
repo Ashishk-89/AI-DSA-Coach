@@ -1,4 +1,4 @@
-# 0G Hackathon 2026 Submission - Integrated with 0G Modular Infrastructure
+# AI DSA Coach - Multi-Agent System
 import os
 import google.generativeai as genai
 
